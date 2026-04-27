@@ -15,14 +15,14 @@
 
   .lib-header {
     background: linear-gradient(135deg, #0a5c2e 0%, #1a8a4a 100%);
-    padding: 16px 20px; border-radius: 16px; margin-bottom: 16px;
+    padding: 14px 20px; border-radius: 16px; margin-bottom: 16px;
     display: flex; align-items: center; gap: 14px;
     box-shadow: 0 4px 20px rgba(10,92,46,0.25);
   }
   .lib-logo-wrap {
-    width: 56px; height: 56px; border-radius: 10px; background: #fff;
+    width: 72px; height: 52px; border-radius: 10px; background: #fff;
     display: flex; align-items: center; justify-content: center;
-    flex-shrink: 0; overflow: hidden; padding: 4px;
+    flex-shrink: 0; overflow: hidden; padding: 6px 8px;
   }
   .lib-logo-wrap img { width: 100%; height: 100%; object-fit: contain; }
   .lib-title { color: #fff; font-size: 18px; font-weight: 600; }
@@ -125,7 +125,9 @@
   .onboard-card {
     background: #fff; border-radius: 12px; padding: 14px;
     border: 1px solid #e8e8e8; box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+    text-decoration: none; display: block; transition: box-shadow 0.15s, border-color 0.15s;
   }
+  .onboard-card:hover { box-shadow: 0 4px 16px rgba(10,92,46,0.12); border-color: #9fe1cb; }
   .onboard-num   { font-size: 22px; font-weight: 700; color: #0a5c2e; margin-bottom: 4px; }
   .onboard-title { font-size: 13px; font-weight: 600; color: #1a1a1a; }
   .onboard-desc  { font-size: 12px; color: #666; margin-top: 4px; line-height: 1.4; }
@@ -181,10 +183,10 @@
   <!-- HỘI NHẬP -->
   <div class="section active" id="tab-onboard">
     <div class="onboard-steps">
-      <div class="onboard-card"><div class="onboard-num">01</div><div class="onboard-title">Tìm hiểu NNX</div><div class="onboard-desc">Chính sách CTV, cơ chế hoa hồng, lộ trình phát triển</div></div>
-      <div class="onboard-card"><div class="onboard-num">02</div><div class="onboard-title">Đăng ký tài khoản</div><div class="onboard-desc">Tạo tài khoản CTV & cài đặt App NNX ONE+</div></div>
-      <div class="onboard-card"><div class="onboard-num">03</div><div class="onboard-title">Ký hợp đồng</div><div class="onboard-desc">Ký hợp đồng điện tử cộng tác viên</div></div>
-      <div class="onboard-card"><div class="onboard-num">04</div><div class="onboard-title">Bắt đầu bán</div><div class="onboard-desc">Tham khảo tài liệu sản phẩm & bộ sale kits</div></div>
+      <a class="onboard-card" href="https://www.canva.com/design/DAG1wAO_7Sc/2g51HXSh65bzNIDqdCEK8A/edit" target="_blank"><div class="onboard-num">01</div><div class="onboard-title">Tìm hiểu NNX</div><div class="onboard-desc">Chính sách CTV, cơ chế hoa hồng, lộ trình phát triển</div></a>
+      <a class="onboard-card" href="https://drive.google.com/drive/folders/1eurJaqyCTlT_t-lDz8S3p9jzmBu9fMnK" target="_blank"><div class="onboard-num">02</div><div class="onboard-title">Đăng ký tài khoản</div><div class="onboard-desc">Tạo tài khoản CTV & cài đặt App NNX ONE+</div></a>
+      <a class="onboard-card" href="#" target="_blank" style="opacity:0.55; pointer-events:none;"><div class="onboard-num">03</div><div class="onboard-title">Ký hợp đồng</div><div class="onboard-desc">Ký hợp đồng điện tử cộng tác viên</div></a>
+      <a class="onboard-card" href="https://drive.google.com/drive/folders/14NE4LvAdj2JG4SylwQI262quXTpat2g7" target="_blank"><div class="onboard-num">04</div><div class="onboard-title">Bắt đầu bán</div><div class="onboard-desc">Tham khảo tài liệu sản phẩm & bộ sale kits</div></a>
     </div>
     <div class="card-group">
       <div class="card-group-title">Tài liệu hội nhập</div>
