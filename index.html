@@ -173,14 +173,14 @@
   </div>
 
   <div class="tabs">
-    <div class="tab active" onclick="switchTab('onboard',this)">Dành cho người mới bắt đầu</div>
+    <div class="tab" onclick="switchTab('onboard',this)">Dành cho người mới bắt đầu</div>
     <div class="tab" onclick="switchTab('products',this)">Sản phẩm</div>
     <div class="tab" onclick="switchTab('sales',this)">Bán hàng</div>
     <div class="tab" onclick="switchTab('contest',this)">🏆 Thi đua</div>
   </div>
 
   <!-- DÀNH CHO NGƯỜI MỚI BẮT ĐẦU -->
-  <div class="section active" id="tab-onboard">
+  <div class="section" id="tab-onboard">
     <div class="onboard-steps">
       <a class="onboard-card" href="https://drive.google.com/file/d/1KugVHm6CwdjQ1o2g-gjwGl7vmghxCqgc/view?usp=drive_link" target="_blank"><div class="onboard-num">01</div><div class="onboard-title">Tìm hiểu NNX</div><div class="onboard-desc">Chính sách CTV, cơ chế hoa hồng, lộ trình phát triển</div></a>
       <a class="onboard-card" href="https://drive.google.com/file/d/1hKbbA9zUJVykLdweXvnDmNTZpNJXJuU7/view?usp=drive_link" target="_blank"><div class="onboard-num">02</div><div class="onboard-title">Đăng ký tài khoản</div><div class="onboard-desc">Tạo tài khoản CTV trên App NNX ONE+ và ký Hợp đồng điện tử</div></a>
@@ -229,19 +229,17 @@
 
   <!-- SẢN PHẨM — mỗi card có đúng 3 mục cố định -->
   <div class="section" id="tab-products">
-
     <div class="card-group">
      <div class="card-group-title">Sản phẩm độc quyền phân phối tại NNX</div>
-
-     <div class="doc-card" onclick="toggleCard(this)">
+      <div class="doc-card" onclick="toggleCard(this)">
        <div class="doc-card-header"><span class="doc-name">CSSK TECHCOM - Xanh Bình An</span><span class="doc-badge">Sức khỏe</span><span class="chevron">▼</span></div>
-       <div class="sub-links">
+        <div class="sub-links">
           <a class="sub-link has-link" href="https://drive.google.com/drive/folders/1hrDId9zGdoYi2jypQVYDNv63z_tNJEPV?usp=drive_link" target="_blank"><div class="sub-icon green">📁</div><div class="sub-text"><div class="sub-title">Tổng hợp tất cả tài liệu</div><div class="sub-hint">Sản phẩm - Bồi thường - Marketing & bán hàng</div></div><span class="sub-arrow">↗</span></a>
           <a class="sub-link has-link" href="https://drive.google.com/file/d/1R7pvVhblDv2neTPfmYVjWEg08JcE4atK/view?usp=drive_link" target="_blank"><div class="sub-icon green">📋</div><div class="sub-text"><div class="sub-title">Tóm tắt quyền lợi</div><div class="sub-hint">Brochure sản phẩm</div></div><span class="sub-arrow">↗</span></a>
           <a class="sub-link has-link" href="https://drive.google.com/file/d/1K5VkK_zKOjuL1Qjb838d5mdRWpnrxs-f/view?usp=drive_link" target="_blank"><div class="sub-icon blue">📄</div><div class="sub-text"><div class="sub-title">Quy tắc điều khoản</div><div class="sub-hint">Tóm tắt quy tắc bảo hiểm</div></div><span class="sub-arrow">↗</span></a>
+        </div>
        </div>
-     </div>
-        
+             
      <div class="doc-card" onclick="toggleCard(this)">
         <div class="doc-card-header"><span class="doc-name">CSSK MSIG - Sống Xanh</span><span class="doc-badge">Sức khoẻ</span><span class="chevron">▼</span></div>
         <div class="sub-links">
@@ -282,7 +280,6 @@
  
    <div class="card-group">
     <div class="card-group-title">Sản phẩm bảo hiểm Con người</div>
-
       <div class="doc-card" onclick="toggleCard(this)">
         <div class="doc-card-header"><span class="doc-name">CSSK MIC Care</span><span class="doc-badge">Sức khoẻ</span><span class="chevron">▼</span></div>
         <div class="sub-links">
@@ -323,31 +320,28 @@
         <div class="doc-card-header"><span class="doc-name">Tai nạn cá nhân/ gia đình MSIG</span><span class="doc-badge orange">Tai nạn</span><span class="chevron">▼</span></div>
         <div class="sub-links">
           <a class="sub-link has-link" href="https://drive.google.com/drive/folders/1IkJr8iKIeXA_EaX-g7YmUuwjs9RCQ38i?usp=drive_link" target="_blank"><div class="sub-icon green">📁</div><div class="sub-text"><div class="sub-title">Tổng hợp tất cả tài liệu</div><div class="sub-hint">Sản phẩm - Bồi thường - Marketing & bán hàng</div></div><span class="sub-arrow">↗</span></a>
-          <a class="sub-link has-link" href="https://drive.google.com/file/d/1G0kh3s9gwqYQGRHrLVv-FNiIYQR82T42/view?usp=drive_link" target="_blank"><div class="sub-icon yellow">📋</div><div class="sub-text"><div class="sub-title">Tóm tắt quyền lợi</div><div class="sub-hint">Brochure tóm tắt sản phẩm</div></div><span class="sub-arrow">↗</span></a>
-          <a class="sub-link has-link" href="https://drive.google.com/file/d/19FwBVasOyrYE_MSJ24FLOCXOfN3PhBV-/view?usp=drive_link" target="_blank"><div class="sub-icon blue">📄</div><div class="sub-text"><div class="sub-title">Quy tắc điều khoản</div><div class="sub-hint">File PDF quy tắc</div></div><span class="sub-arrow">↗</span></a>
+          <a class="sub-link has-link" href="https://drive.google.com/file/d/1G0kh3s9gwqYQGRHrLVv-FNiIYQR82T42/view?usp=drive_link" target="_blank"><div class="sub-icon yellow">📋</div><div class="sub-text"><div class="sub-title">Nghị định 67.2023 CP</div><div class="sub-hint"></div></div><span class="sub-arrow">↗</span></a>
         </div>
       </div>
     </div>
    </div>
 
 
-    <div class="card-group">
-      <div class="card-group-title">Sản phẩm bảo hiểm Xe cơ giới</div>
-
+   <div class="card-group">
+     <div class="card-group-title">Sản phẩm bảo hiểm Xe cơ giới</div>
       <div class="doc-card" onclick="toggleCard(this)">
-        <div class="doc-card-header"><span class="doc-name">TNDS xe máy & ô tô - MSIG/PVI</span><span class="doc-badge blue">Xe cộ</span><span class="chevron">▼</span></div>
+        <div class="doc-card-header"><span class="doc-name">TNDS xe máy & ô tô</span><span class="doc-badge blue">TNDS bắt buộc</span><span class="chevron">▼</span></div>
         <div class="sub-links">
-          <a class="sub-link no-link"><div class="sub-icon green">📁</div><div class="sub-text"><div class="sub-title">Tổng hợp tất cả tài liệu</div><div class="sub-hint">đang cập nhật</div></div><span class="sub-arrow">↗</span></a>
-          <a class="sub-link no-link"><div class="sub-icon yellow">📋</div><div class="sub-text"><div class="sub-title">Tóm tắt quyền lợi</div><div class="sub-hint">đang cập nhật</div></div><span class="sub-arrow">↗</span></a>
-          <a class="sub-link has-link" href="https://drive.google.com/file/d/1QFI8jWJakvWsO-erPTms1hB9aJMsd2X_/view" target="_blank"><div class="sub-icon blue">📄</div><div class="sub-text"><div class="sub-title">Quy tắc điều khoản</div><div class="sub-hint">File PDF quy tắc</div></div><span class="sub-arrow">↗</span></a>
+          <a class="sub-link has-link" href="https://drive.google.com/drive/folders/1W-cC7rYZaahXnaz0WZWf1OC8TN5Qe8pJ?usp=drive_link" target="_blank"><div class="sub-icon green">📁</div><div class="sub-text"><div class="sub-title">Tổng hợp tất cả tài liệu</div><div class="sub-hint">Sản phẩm - Bồi thường - Marketing & bán hàng</div></div><span class="sub-arrow">↗</span></a>
+          <a class="sub-link has-link" href="https://drive.google.com/file/d/1UdJ7k-KegDT9JwIS6bHGgcCHYWwrodOx/view?usp=drive_link" target="_blank"><div class="sub-icon yellow">📋</div><div class="sub-text"><div class="sub-title">Tóm tắt quyền lợi</div><div class="sub-hint">đang cập nhật</div></div><span class="sub-arrow">↗</span></a>
         </div>
       </div>
 
       <div class="doc-card" onclick="toggleCard(this)">
-        <div class="doc-card-header"><span class="doc-name">Vật chất xe ô tô - PVI</span><span class="doc-badge blue">Xe cộ</span><span class="chevron">▼</span></div>
+        <div class="doc-card-header"><span class="doc-name">Vật chất xe ô tô</span><span class="doc-badge blue">Thân vỏ tự nguyện</span><span class="chevron">▼</span></div>
         <div class="sub-links">
-          <a class="sub-link no-link"><div class="sub-icon green">📁</div><div class="sub-text"><div class="sub-title">Tổng hợp tất cả tài liệu</div><div class="sub-hint">đang cập nhật</div></div><span class="sub-arrow">↗</span></a>
-          <a class="sub-link no-link"><div class="sub-icon yellow">📋</div><div class="sub-text"><div class="sub-title">Tóm tắt quyền lợi</div><div class="sub-hint">đang cập nhật</div></div><span class="sub-arrow">↗</span></a>
+          <a class="sub-link has-link" href="https://drive.google.com/drive/folders/1KQ-rBGk0FSKmu96-FFip0-eAXN9Hat3b?usp=drive_link" target="_blank"><div class="sub-icon green">📁</div><div class="sub-text"><div class="sub-title">TASCO</div><div class="sub-hint"></div></div><span class="sub-arrow">↗</span></a>
+          <a class="sub-link has-link" href="https://drive.google.com/drive/folders/1w_ZDWXISnXJWsElYCOmVX7DGt60eaVOq?usp=drive_link" target="_blank"><div class="sub-icon yellow">📁</div><div class="sub-text"><div class="sub-title">PVI</div><div class="sub-hint"></div></div><span class="sub-arrow">↗</span></a>
           <a class="sub-link has-link" href="https://drive.google.com/file/d/1vH3rZaFTHZRdMCVz7VHEoDg4_Ko-EzBM/view" target="_blank"><div class="sub-icon blue">📄</div><div class="sub-text"><div class="sub-title">Quy tắc điều khoản</div><div class="sub-hint">File PDF quy tắc</div></div><span class="sub-arrow">↗</span></a>
         </div>
       </div>
