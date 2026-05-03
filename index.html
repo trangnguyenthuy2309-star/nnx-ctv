@@ -173,14 +173,14 @@
   </div>
 
   <div class="tabs">
-    <div class="tab-active" onclick="switchTab('onboard',this)">Dành cho người mới bắt đầu</div>
+    <div class="tab active" onclick="switchTab('onboard',this)">Dành cho người mới bắt đầu</div>
     <div class="tab" onclick="switchTab('products',this)">Sản phẩm</div>
     <div class="tab" onclick="switchTab('sales',this)">Bán hàng</div>
     <div class="tab" onclick="switchTab('contest',this)">🏆 Thi đua</div>
   </div>
 
   <!-- DÀNH CHO NGƯỜI MỚI BẮT ĐẦU -->
-  <div class="section-active" id="tab-onboard">
+  <div class="section active" id="tab-onboard">
     <div class="onboard-steps">
       <a class="onboard-card" href="https://drive.google.com/file/d/1KugVHm6CwdjQ1o2g-gjwGl7vmghxCqgc/view?usp=drive_link" target="_blank"><div class="onboard-num">01</div><div class="onboard-title">Tìm hiểu NNX</div><div class="onboard-desc">Chính sách CTV, cơ chế hoa hồng, lộ trình phát triển</div></a>
       <a class="onboard-card" href="https://drive.google.com/file/d/1hKbbA9zUJVykLdweXvnDmNTZpNJXJuU7/view?usp=drive_link" target="_blank"><div class="onboard-num">02</div><div class="onboard-title">Đăng ký tài khoản</div><div class="onboard-desc">Tạo tài khoản CTV trên App NNX ONE+ và ký Hợp đồng điện tử</div></a>
@@ -225,11 +225,11 @@
           <a class="doc-link" href="mailto:support@nnx.com.vn" target="_blank"><span class="link-icon">💬</span><span class="link-label">Email hỗ trợ: support@nnx.com.vn</span><span class="link-arrow">↗</span></a>                
         </div>
       </div>
-     </div
-    </div> 
+    </div>
+  </div> 
 
-  <!-- SẢN PHẨM — mỗi card có đúng 3 mục cố định -->
-  <div class="section-active" id="tab-products">
+  <!-- SẢN PHẨM -->
+  <div class="section" id="tab-products">
     <div class="card-group">
      <div class="card-group-title">Sản phẩm độc quyền phân phối tại NNX</div>
       <div class="doc-card" onclick="toggleCard(this)">
@@ -371,69 +371,6 @@
     </div>
   </div>
 
-  <!-- BỒI THƯỜNG -->
-  <div class="section" id="tab-claims">
-    <div class="card-group">
-      <div class="card-group-title">Sức khoẻ & tai nạn</div>
-      <div class="doc-card" onclick="toggleCard(this)">
-        <div class="doc-card-header"><span class="doc-name">CSSK MSIG & Techcom - Quy trình & App</span><span class="doc-badge red">Bồi thường</span><span class="chevron">▼</span></div>
-        <div class="doc-links">
-          <a class="doc-link" href="https://drive.google.com/file/d/1YQB6a4Zj4O_YquniS6osouR-HBqjhiBG/view" target="_blank"><span class="link-icon">📋</span><span class="link-label">Quy trình claim bồi thường & bảo lãnh</span><span class="link-arrow">↗</span></a>
-          <a class="doc-link" href="https://drive.google.com/file/d/1gT7tmDVot_GMb-_hYhB_3pVehcKbSgav/view" target="_blank"><span class="link-icon">📱</span><span class="link-label">Hướng dẫn App Fullerton Health Concierge</span><span class="link-arrow">↗</span></a>
-          <a class="doc-link" href="https://drive.google.com/file/d/1-gUkmLJYjE5TlHXAl-K3zKdwOmljHTIl/view" target="_blank"><span class="link-icon">🏥</span><span class="link-label">Danh sách bệnh viện bảo lãnh trong nước</span><span class="link-arrow">↗</span></a>
-          <a class="doc-link" href="https://drive.google.com/file/d/1SGenDQC8Qj3MD-m0_8-AX5MFWZc7dode/view" target="_blank"><span class="link-icon">🌏</span><span class="link-label">Danh sách bệnh viện bảo lãnh quốc tế</span><span class="link-arrow">↗</span></a>
-        </div>
-      </div>
-      <div class="doc-card" onclick="toggleCard(this)">
-        <div class="doc-card-header"><span class="doc-name">Form biểu - Trợ cấp nằm viện PVI</span><span class="doc-badge red">Biểu mẫu</span><span class="chevron">▼</span></div>
-        <div class="doc-links">
-          <a class="doc-link" href="https://drive.google.com/file/d/1NpPxC-mdyLvjH56fpk380I_Q1yU1vGMb/view" target="_blank"><span class="link-icon">📝</span><span class="link-label">Giấy yêu cầu bồi thường</span><span class="link-arrow">↗</span></a>
-          <a class="doc-link" href="https://docs.google.com/spreadsheets/d/1Dg_eB94PrjQIQK5eYKlQgQDJF5QU8inzwVG7uPXTSxk/edit" target="_blank"><span class="link-icon">📋</span><span class="link-label">Danh sách hồ sơ cần thu thập</span><span class="link-arrow">↗</span></a>
-        </div>
-      </div>
-      <div class="doc-card" onclick="toggleCard(this)">
-        <div class="doc-card-header"><span class="doc-name">Form biểu - Tai nạn cá nhân MSIG</span><span class="doc-badge red">Biểu mẫu</span><span class="chevron">▼</span></div>
-        <div class="doc-links">
-          <a class="doc-link" href="https://docs.google.com/document/d/1tA-aLIiKsaHRFekWefuUqhuC2R9n08-R/edit" target="_blank"><span class="link-icon">📝</span><span class="link-label">Giấy yêu cầu bồi thường</span><span class="link-arrow">↗</span></a>
-          <a class="doc-link" href="https://docs.google.com/document/d/1bSudFWXyBjcDpyyvdHvdB56Wh2eukUkW/edit" target="_blank"><span class="link-icon">📝</span><span class="link-label">Đơn đề nghị bồi thường CSSK</span><span class="link-arrow">↗</span></a>
-          <a class="doc-link" href="https://docs.google.com/document/d/1Ko3sARoWYj9Q4Jfa-YvrFyUgzuG1oTyC/edit" target="_blank"><span class="link-icon">📝</span><span class="link-label">Bản tường trình tai nạn</span><span class="link-arrow">↗</span></a>
-        </div>
-      </div>
-      <div class="doc-card" onclick="toggleCard(this)">
-        <div class="doc-card-header"><span class="doc-name">Form biểu - Trợ cấp NLĐ BMI</span><span class="doc-badge red">Biểu mẫu</span><span class="chevron">▼</span></div>
-        <div class="doc-links">
-          <a class="doc-link" href="https://drive.google.com/file/d/1FPB4KKeGh9bd1llAqRsTl9B0aP7lGGvn/view" target="_blank"><span class="link-icon">📋</span><span class="link-label">Hướng dẫn quy trình bồi thường</span><span class="link-arrow">↗</span></a>
-          <a class="doc-link" href="https://docs.google.com/document/d/1apCC_Bj6FKSb3dzfy6igLQRroTz1eO1G/edit" target="_blank"><span class="link-icon">📝</span><span class="link-label">Claim form yêu cầu bồi thường</span><span class="link-arrow">↗</span></a>
-          <a class="doc-link" href="https://docs.google.com/document/d/1JUf-w8dKSd0w-5Th_iuP37ChG1iplEBk/edit" target="_blank"><span class="link-icon">📝</span><span class="link-label">Đơn xin xác nhận thiệt hại thiên tai</span><span class="link-arrow">↗</span></a>
-        </div>
-      </div>
-    </div>
-    <div class="card-group">
-      <div class="card-group-title">Xe cộ</div>
-      <div class="doc-card" onclick="toggleCard(this)">
-        <div class="doc-card-header"><span class="doc-name">Vật chất xe & TNDS - PVI</span><span class="doc-badge blue">Xe cộ</span><span class="chevron">▼</span></div>
-        <div class="doc-links">
-          <a class="doc-link" href="https://docs.google.com/spreadsheets/d/1EvFatx6IXzmbNLPa0QoXfY5Ov_dYbZEo/edit" target="_blank"><span class="link-icon">🔧</span><span class="link-label">Danh sách gara bảo lãnh</span><span class="link-arrow">↗</span></a>
-        </div>
-      </div>
-    </div>
-    <div class="card-group">
-      <div class="card-group-title">Khác</div>
-      <div class="doc-card" onclick="toggleCard(this)">
-        <div class="doc-card-header"><span class="doc-name">Du lịch Liberty</span><span class="doc-badge purple">Du lịch</span><span class="chevron">▼</span></div>
-        <div class="doc-links">
-          <a class="doc-link" href="https://drive.google.com/file/d/12jPZ8Vc6DrY7vGpAd7f2TTp5csBkmUOh/view" target="_blank"><span class="link-icon">📝</span><span class="link-label">Mẫu giấy yêu cầu bồi thường</span><span class="link-arrow">↗</span></a>
-          <a class="doc-link" href="https://drive.google.com/file/d/1mJKA30_-PocXfLGK1-7nXz6-F2W5O5qz/view" target="_blank"><span class="link-icon">🔄</span><span class="link-label">Hướng dẫn quy trình bồi thường</span><span class="link-arrow">↗</span></a>
-        </div>
-      </div>
-      <div class="doc-card" onclick="toggleCard(this)">
-        <div class="doc-card-header"><span class="doc-name">Nhà tư nhân DBV</span><span class="doc-badge purple">Nhà ở</span><span class="chevron">▼</span></div>
-        <div class="doc-links">
-          <a class="doc-link" href="https://drive.google.com/file/d/11S8F1yRRE7lID7_8E-rJEwXlAwFIHkOd/view" target="_blank"><span class="link-icon">🔄</span><span class="link-label">Hướng dẫn bồi thường</span><span class="link-arrow">↗</span></a>
-        </div>
-      </div>
-    </div>
-  </div>
 
   <!-- BÁN HÀNG -->
   <div class="section" id="tab-sales">
@@ -445,12 +382,7 @@
           <a class="doc-link" href="https://docs.google.com/spreadsheets/d/1vsbtwixmkfN9EDLd2tPYMsbgIqYRNFj1-Ds9tHwsAcg/edit" target="_blank"><span class="link-icon">🗂</span><span class="link-label">Kho content & hình ảnh bán hàng</span><span class="link-arrow">↗</span></a>
         </div>
       </div>
-      <div class="doc-card" onclick="toggleCard(this)">
-        <div class="doc-card-header"><span class="doc-name">Bộ sale kits tổng hợp</span><span class="doc-badge">Sale kits</span><span class="chevron">▼</span></div>
-        <div class="doc-links">
-          <a class="doc-link" href="https://drive.google.com/drive/folders/14NE4LvAdj2JG4SylwQI262quXTpat2g7" target="_blank"><span class="link-icon">📦</span><span class="link-label">Folder bộ sale kits NNX</span><span class="link-arrow">↗</span></a>
-        </div>
-      </div>
+     
       <div class="doc-card" onclick="toggleCard(this)">
         <div class="doc-card-header"><span class="doc-name">Tư liệu bồi thường thực tế</span><span class="doc-badge blue">Tư liệu</span><span class="chevron">▼</span></div>
         <div class="doc-links">
